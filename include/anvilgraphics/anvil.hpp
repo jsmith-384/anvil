@@ -1,18 +1,17 @@
 /* Jordan Smith 2023
- * Anvil | anvil_init.hpp
+ * Anvil | anvil.hpp
  * Licensed under the MIT license
  */
 
-#ifndef ANVIL_INIT
-#define ANVIL_INIT
+#ifndef ANVIL_GRAPHICS_HPP
+#define ANVIL_GRAPHICS_HPP
 
 // use C style linking; stops mangling
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-int ANV_Initialize(int flags);
-void ANV_Diagnostics();
+#include <anvilgraphics/anvil_init.hpp>
 
 #ifdef __cplusplus
 }
