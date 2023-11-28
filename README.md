@@ -1,2 +1,2 @@
 # Anvil
-A basic 3D library using OpenGL written in C++.
+A basic 3D graphics library written in C++.
